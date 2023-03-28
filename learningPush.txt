@@ -13,6 +13,10 @@ LOCALLY:
 
 	-> to see what's currently inside the staging area, "git status".
 	
-	-> In order to add a file to a staging area and track changes in it, "git add file_name"
+	-> In order to add a file to a staging area and track changes in it, "git add file_name" or If we want to select all files for adding to staging area, "git add ."
 
-	->
+	-> Now, we can commit this change, to commit with added message, "git commit -m "First Commit""
+
+	-> We can see what commit we have made by using the "git log"
+	
+	-> 
