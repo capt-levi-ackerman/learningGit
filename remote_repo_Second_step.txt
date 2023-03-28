@@ -1,0 +1,20 @@
+Working Remotely, GitHUB:
+--------------------------
+
+-> Create A new Repository in the GITHUB account.
+
+-> Now After Creating the repo, go under the local repository.
+
+-> To push the commits to the gitHUB:
+
+	-> Create a Remote. Origin is simply the name of the remote. We can use anything in place of Origin. But by convention, it is named "origin".
+	
+		command: git remote add origin "url"
+
+-> Now the remote is created, and now we can push the local repository to remote repo.
+
+-> to push the repo, we can use "git push -u origin master"
+
+
+
+ 
