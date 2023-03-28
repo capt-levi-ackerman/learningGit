@@ -1,0 +1,25 @@
+-> Step for Working in GitHub.
+--------------------------------
+
+LOCALLY:
+
+	-> Create a folder with project name(Later on Repository name).
+	
+	-> initialise git by "git init" command under that folder.
+
+	-> Through "ls -a", we can see all the hidden files. Now we can see a .git.
+
+	-> this .git will be used to commit and everything for the version control.
+
+	-> to see what's currently inside the staging area, "git status".
+	
+	-> In order to add a file to a staging area and track changes in it, "git add file_name" or If we want to select all files for adding to staging area, "git add ."
+
+	-> Now, we can commit this change, to commit with added message, "git commit -m "First Commit""
+
+	-> We can see what commit we have made by using the "git log"
+	
+	-> In git log, Head is the position where we are currently.
+
+	-> If we want to compare the difference between the current version of the file to the last savepoint/commit, we can do this with, "git diff file_name"
+	-> We can rollback the file to it's last state, "git checkout file_name"
