@@ -19,4 +19,9 @@ LOCALLY:
 
 	-> We can see what commit we have made by using the "git log"
 	
-	-> 
+	-> In git log, Head is the position where we are currently.
+
+	-> If we want to compare the difference between the current version of the file to the last savepoint/commit, we can do this with, "git diff file_name"
+	-> We can rollback the file to it's last state, "git checkout file_name"
+
+	->
